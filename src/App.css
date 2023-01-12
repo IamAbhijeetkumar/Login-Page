@@ -1,0 +1,237 @@
+* {
+  max-width: 100vw;
+  max-height: 100vh;
+  text-align: center;
+}
+
+.logo {
+  height: 30vh;
+  width: 30vw;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    margin-top: 5vh;
+    height:50vw;
+    width:50vh;
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+header {
+  max-width: 100vw;
+  background-color: white;
+  max-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #0c7390;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.form {
+  
+  width: 60%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  flex-direction: column;
+}
+
+.form .nav {
+  width: 60%;
+}
+.form ul {
+  width: 500%;
+  justify-content: space-around;
+  list-style-type: none;
+  display: inline-flex;
+}
+.form ul .design {
+  border-bottom: 5px solid rgb(255, 0, 85);
+  color: black;
+}
+
+.form ul li {
+  padding: 5px 100px;
+  font-size: 25px;
+  font-weight: 600;
+  color:rgb(95, 94, 94);
+}
+
+.form input {
+  border-radius: 30px;
+  width: 40%;
+  font-size: 15px;
+  margin-top: 5px;
+  height: 5vh;
+  text-align: start;
+  padding-left: 30px;
+  border: 2px solid black;
+}
+.form button {
+  border-radius: 30px;
+  width: 42%;
+  margin-top: 2vh;
+  height: 6vh;
+  border: none;
+  color: white;
+  font-size: 30px;
+  background-color: rgb(255, 0, 93);
+}
+.form span {
+  width: 45%;
+  text-align: end;
+  color: rgb(255, 0, 85);
+  font-size: 20px;
+  align-items: end;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.Icon {
+  width: 100%;
+}
+.Icon ul {
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  list-style-type: none;
+  display: inline-flex;
+}
+.Icon ul li img {
+  margin: 0px 10px;
+  padding: 0;
+  border-radius: 40px;
+  border:1px solid rgb(85, 84, 84);
+  width: 35px;
+  height: 35px;
+}
+
+h4 {
+  color: rgb(113, 110, 110);
+  font-size: 20px;
+  font-weight: 300;
+}
+h3 {
+  color: rgb(0, 0, 0);
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 400;
+}
+h3 span {
+  color: rgb(255, 0, 85);
+}
+@media (max-width: 600px) {
+  .header {
+    margin:auto;
+    max-width:100vw;
+  }
+  .form {
+    width: 90%;
+  }
+  .form ul li {
+    padding: 5px 70px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .form input {
+    border-radius: 30px;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 5px;
+    height: 5vh;
+    text-align: start;
+    padding-left: 30px;
+    border: 1px solid rgb(88, 87, 87);
+  }
+  .form button {
+    border-radius: 30px;
+    width:110%;
+    margin-top: 2vh;
+    height: 6vh;
+    border: none;
+    color: white;
+    font-size: 23px;
+    background-color: rgb(255, 0, 93);
+  }
+  .form span{
+    width:100%;
+    text-align: end;
+    font-size: 15px;
+    margin-top: 0;
+    padding-top:0 ;
+  }
+ h4{
+  font-size: 12px;
+ }
+ h3{
+  font-size: 11px;
+  width:100%;
+ }
+}
+
+@media (max-width: 1200px) {
+  .header {
+    margin:auto;
+    max-width:100vw;
+  }
+  .form {
+    width: 90%;
+  }
+  .form ul li {
+    padding: 5px 70px;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .form input {
+    border-radius: 30px;
+    width: 75%;
+    font-size: 15px;
+    margin-top: 5px;
+    height: 5vh;
+    text-align: start;
+    padding-left: 30px;
+    border: 1px solid rgb(88, 87, 87);
+  }
+  .form button {
+    border-radius: 30px;
+    width:80%;
+    margin-top: 2vh;
+    height: 6vh;
+    border: none;
+    color: white;
+    font-size: 23px;
+    background-color: rgb(255, 0, 93);
+  }
+  .form span{
+    width:80%;
+    text-align: end;
+    font-size: 18px;
+    margin-top: 0;
+    padding-top:0 ;
+  }
+ h4{
+  font-size: 15px;
+ }
+ h3{
+  font-size: 15px;
+  width:100%;
+ }
+}
